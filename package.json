@@ -1,0 +1,29 @@
+{
+  "name": "taxi-dispatcher",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:pages": "cross-env GITHUB_PAGES=true npm run build",
+    "preview": "vite preview",
+    "preview:pages": "cross-env GITHUB_PAGES=true vite preview"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-leaflet": "^5.0.0",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.17",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

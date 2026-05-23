@@ -1,0 +1,17 @@
+:root {
+  --ui-bg: #f5f4f2;
+  --ui-surface: #ffffff;
+  --ui-surface-muted: #fafafa;
+  --ui-text: #21201f;
+  --ui-text-secondary: #6b6a68;
+  --ui-line: rgba(0, 0, 0, 0.08);
+  --ui-line-strong: #b8bcc4;
+  --ui-transition: 0.2s ease;
+  --ui-accent: #fce000;
+  --ui-accent-hover: #efdf00;
+  --ui-accent-text: #21201f;
+  --ui-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --ui-radius: 16px;
+  --ui-radius-sm: 12px;
+  --sidebar-width: 300px;
+}
