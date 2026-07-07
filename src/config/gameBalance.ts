@@ -4,7 +4,7 @@ import type { TimeScaleMode } from '../types/game';
 export const GAME_BALANCE = {
   /** 1 игровая минута = 2 сек реального времени при ×1 (30 игр. сек / 1 реал. сек) */
   gameSecondsPerRealSecond: 30,
-  startMoney: 500000,
+  startMoney: 100000,
   baseSpeedMps: 9,
   orderSpawnIntervalGameMs: 180_000,
   maxPendingOrders: 10,
